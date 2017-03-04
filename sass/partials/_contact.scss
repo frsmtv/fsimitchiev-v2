@@ -1,0 +1,13 @@
+#contact {
+  ul {
+    text-transform: uppercase;
+    line-height: 2;
+    &:nth-child(2) {
+      font-size: 80%;
+      li {
+        display: inline;
+        margin-right: 5px;
+      }
+    }
+  }
+}

@@ -1,5 +1,7 @@
 @import "partials/recent";
 @import "partials/header";
+@import "partials/contact";
+@import "partials/footer";
 
 html, body {
   margin: 0;
@@ -35,6 +37,22 @@ h2 {
 a {
   color: inherit;
   text-decoration: none;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+  &:hover {
+    color: orangered;
+  }
+}
+a.active {
+  color: orangered;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 main {
@@ -44,5 +62,4 @@ main {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-
 }

@@ -1,7 +1,17 @@
 header {
+  position: relative;
   background: #fff;
   z-index: 1000;
   width: 80%;
   margin: auto;
   padding-top: 10px;
+  ul#language {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    li {
+      display: inline;
+      font-size: 70%;
+    }
+  }
 }
