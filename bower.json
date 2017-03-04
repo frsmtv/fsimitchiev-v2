@@ -1,0 +1,24 @@
+{
+  "name": "gulpfile_generator",
+  "description": "This is a genarator for gulpfile and package.json",
+  "main": "",
+  "authors": [
+    "steelydylan"
+  ],
+  "license": "MIT License",
+  "keywords": [
+    "gulp"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "animate.css": "^3.5.2"
+  }
+}

@@ -1,0 +1,40 @@
+#recent-projects {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    img {
+      height: 70vh;
+    }
+    h2 {
+      font-size: 20vh;
+      text-align: right;
+      line-height: 1;
+      span {
+        font-size: 1rem;
+        i:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    iframe {
+    }
+    p {
+      text-align: justify;
+      font-size: .9rem;
+    }
+
+    [data-accordion-group] {
+      width: 100%
+    }
+    [data-control] {
+      display: flex;
+      justify-content: space-between;
+      align-self: baseline;
+      &:hover {
+      }
+    }
+    [data-content] {
+    }
+  }
+}
