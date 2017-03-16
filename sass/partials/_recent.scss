@@ -6,12 +6,11 @@
         height: 70vh;
       }
       h2 {
-        float: left;
-        text-align: left;
-        font-size: 10vh;
+        text-align: center;
+        font-size: 5vh;
         line-height: 1;
         font-weight: 500;
-        margin-top: -15px;
+        margin-top: 20px;
         margin-bottom: 40px;
         span {
           font-weight: 100;
@@ -21,9 +20,10 @@
       iframe {
       }
       p {
+        width: 70vh;
         margin-top: 40px;
         text-align: justify;
-        font-size: .9rem;
+        font-size: 1rem;
         line-height: 2;
       }
 

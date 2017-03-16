@@ -10,6 +10,7 @@
 
     <!--**** FONTS ****-->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
     <!--**** FAVICON ****-->
 
@@ -28,10 +29,17 @@
 </div>
 
 <!--******** HEADER ********-->
-<header>
+<header class="animated fadeIn">
 
     <h1 class="animated fadeIn"><a href="index.html">françois simitchiev<br>
         <span>contrabassist / sound artist</span></a></h1>
+
+    <!-- **** MAIN NAV **** -->
+    <ul id="main-nav">
+        <li><a href="index.html">works</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a class="active" href="contact.html">contact</a></li>
+    </ul> <!-- End: main nav -->
 
         <!--**** LANGUAGE ****-->
         <ul id="language">
@@ -41,25 +49,25 @@
         </ul>
         <!-- End: language -->
 
-    <!--**** BURGER ****-->
-    <div class="navbar-header">
-        <div class="toggle-button" id="toggle">
-            <span class="bar top"></span>
-            <span class="bar middle"></span>
-            <span class="bar bottom"></span>
-        </div>
-    </div> <!-- END: burger -->
+            <!--**** BURGER ****-->
+            <div class="navbar-header">
+                <div class="toggle-button" id="toggle">
+                    <span class="bar top"></span>
+                    <span class="bar middle"></span>
+                    <span class="bar bottom"></span>
+                </div>
+            </div> <!-- END: burger -->
 
-    <!--********* NAV **********-->
-    <nav id="overlay" class="overlay animated fadeIn">
+            <!--********* BURGER NAV **********-->
+            <nav id="overlay" class="overlay animated fadeIn">
 
-        <ul>
-            <li><a href="index.html">works</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="contact.html">contact</a></li>
-        </ul>
+                <ul>
+                    <li><a href="index.html">works</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
 
-    </nav> <!-- End: nav -->
+            </nav> <!-- End: burger nav -->
 
 </header>
 
@@ -71,14 +79,13 @@
     <section id="contact">
 
         <ul>
-            <li>+33 663351022</li>
+            <li><a href="tel:+33663351022">+33 663351022</a></li>
             <li><a href="#">hello@fsimitchiev.com</a> </li>
         </ul>
 
         <ul>
-            <!-- <li><a href="#">bandcamp</a> </li> -->
-            <li><a href="#">soundcloud</a> </li>
-            <li><a href="#">twitter</a> </li>
+            <li><a href="#"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </ul>
 
 
