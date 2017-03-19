@@ -1,8 +1,9 @@
-@import "partials/recent";
+@import "partials/works";
 @import "partials/header";
 @import "partials/contact";
 @import "partials/footer";
 @import "partials/mainnav";
+@import "partials/about";
 
 html, body {
   margin: 0;
@@ -27,14 +28,6 @@ h1 {
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
     font-size: 67%;
-  }
-}
-
-h2 {
-  margin: 0;
-  font-family: 'Permanent Marker', cursive;
-  span {
-    font-family: 'Open Sans', sans-serif;
   }
 }
 
