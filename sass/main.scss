@@ -1,9 +1,7 @@
-@import "partials/works";
 @import "partials/header";
+@import "partials/intro";
 @import "partials/contact";
 @import "partials/footer";
-@import "partials/mainnav";
-@import "partials/about";
 
 html, body {
   margin: 0;
@@ -14,11 +12,11 @@ html, body {
   line-height: 1.6;
   letter-spacing: 2px;
   font-family: 'Open Sans', sans-serif;
-  color: #000;
+  color: #333
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  display: none;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 100;
@@ -52,16 +50,9 @@ ul {
   padding: 0;
 }
 
-main {
-  width: 80%;
-  margin: auto;
-  section {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    p {
-      font-size: 1rem;
-      margin: auto;
-      margin-bottom: 40px
-    }
+section {
+  p {
+    padding: 10%;
+    font-size: 1.5rem
   }
 }

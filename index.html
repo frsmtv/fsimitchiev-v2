@@ -5,113 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Contrebassiste, sound artist aux confluences de la musique classique, électronique, et de l'ambient.">
-    <meta name="author" content="DAKHEUR KLUB">
-    <title>François Simitchiev - Contrabassist, sound artist, composer</title>
+    <meta name="author" content="Typed in">
+    <title>François Simitchiev - Contrebassiste, producteur</title>
 
     <!--**** FONTS ****-->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
     <!--**** FAVICON ****-->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
-    <link rel="stylesheet" href="PreLoadMe/css/styles.css">
-    <link rel="stylesheet" href="dist/css/overlay.css">
+    <link rel="stylesheet" href="dist/css/animate.min.css">
+    <link rel="stylesheet" href="dist/css/jquery.fullpage.min.css">
     <link rel="stylesheet" href="dist/css/bundle-sass.css">
 </head>
 
-<body id="" class="">
+<body class="animated fadeIn">
 
-<!--**** PRELOADER ****-->
-<div id="preloader">
-    <div id="status"></div>
-</div>
 
     <!--******** HEADER ********-->
     <header class="animated fadeIn">
 
-        <h1 class="animated fadeIn"><a href="index.html">françois simitchiev<br>
-            <span>contrabassist / sound artist</span></a></h1>
+        <h1 class="animated fadeIn"><a href="index.html">François Simitchiev</a></h1>
 
         <!-- **** MAIN NAV **** -->
         <ul id="main-nav">
-            <li><a class="active" href="index.html">works</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="contact.html">contact</a></li>
+            <li><a href="#intro">françois simitchiev</a></li>
+            <li><a href="#projets">projets</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul> <!-- End: main nav -->
-
-            <!--**** LANGUAGE ****-->
-            <ul id="language">
-                <li><a class="active" href="#">EN</a> </li>
-                <li>|</li>
-                <li><a class="non-active" href="#">FR</a> </li>
-            </ul>
-            <!-- End: language -->
-
-                <!--**** BURGER ****-->
-                <div class="navbar-header">
-                    <div class="toggle-button" id="toggle">
-                        <span class="bar top"></span>
-                        <span class="bar middle"></span>
-                        <span class="bar bottom"></span>
-                    </div>
-                </div> <!-- END: burger -->
-
-                <!--********* BURGER NAV **********-->
-                <nav id="overlay" class="overlay animated fadeIn">
-
-                    <ul>
-                        <li><a href="index.html">works</a></li>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-
-                </nav> <!-- End: burger nav -->
 
     </header>
 
     <!--******** MAIN ********-->
-    <main class="animated fadeIn">
+    <main  id="fullpage" class="animated fadeIn">
 
-        <!--**** RECENT PROJECTS ****-->
-        <section id="works">
+        <!-- **** INTRO **** -->
+        <section id="intro" class="section">
 
-            <!-- **** SINGLE WORK BLOCK **** -->
-            <div class="single-work">
-                <img class="animated fadeIn" src="dist/img/mesh.jpg">
+            <p>Bonjour. <br>
+                Mon nom est François Simitchiev, et je suis contrebassiste, <span class="smaller"> compositeur,</span> <span class="smallerr">sound artist,</span> <span class="smallerrr"> producteur de musique électronique.</span>
+            </p>
 
-                <h2>'Mesh'</h2>
+        </section> <!-- End: intro -->
 
-                <!-- <iframe src="https://player.vimeo.com/video/131072051?color=ffffff" width="950" height="534" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+        <!-- **** PROJETS **** -->
+        <section id="projets">
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur in eros ac egestas. Proin malesuada velit ex, sit amet accumsan nulla tempor ut. Maecenas commodo vehicula nibh. Proin auctor, magna at egestas ullamcorper, turpis lacus aliquet orci, ac pharetra orci elit ac sapien. Cras at erat urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean mattis vitae justo sed bibendum. Nullam pulvinar porttitor dui a faucibus. Quisque malesuada interdum massa vitae feugiat. Nam tempus molestie sapien eu ultricies.
+        </section> <!-- End: projets -->
 
-                    Phasellus vehicula imperdiet dui et eleifend. Nulla felis nibh, iaculis eget ex in, vehicula dignissim nulla. Maecenas ante ex, consectetur vel tincidunt eu, accumsan id tellus. Nunc vestibulum convallis purus, eu posuere arcu congue sed. Maecenas fringilla eu massa nec pulvinar. Donec fringilla massa a felis feugiat feugiat. Sed sit amet tempor ex. Maecenas in massa molestie, dapibus lacus nec, elementum urna. Maecenas hendrerit massa metus, at facilisis sapien dignissim quis. Nulla facilisi. Cras fermentum tortor id convallis tincidunt. Phasellus vitae aliquet risus. Aenean purus ligula, lacinia vel luctus nec, interdum nec mauris.
-                </p>
+        <!-- **** contact **** -->
+        <section id="contact">
 
-            </div> <!-- End: single work block -->
-
-        </section> <!-- END: recent projects -->
+        </section> <!-- End: contact -->
 
     </main>
 
+    <footer>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="js/jquery.accordion.js"></script>
-<script src="js/overlay.js"></script>
+    </footer>
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/jquery.fullpage.min.js"></script>
 <script src="js/main.js"></script>
 
-<!--**** PRELOADER ****-->
+<!-- **** FULLPAGE **** -->
 <script type="text/javascript">
-    //<![CDATA[
-    $(window).on('load', function() { // makes sure the whole site is loaded
-        $('#status').fadeOut(); // will first fade out the loading animation
-        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-        $('body').delay(350).css({'overflow':'visible'});
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+      anchors:['intro', 'projets', 'contact']
     });
-    //]]>
+});
 </script>
 
 </body>

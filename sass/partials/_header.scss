@@ -1,16 +1,12 @@
 header {
-  position: relative;
-  z-index: 1000;
   width: 80%;
   margin: auto;
-  padding-top: 10px;
-  ul#language {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    li {
-      display: inline;
-      font-size: 70%;
-    }
+  padding-top: 20px;
+  #main-nav {
+    font-size: 70%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: space-between;
   }
 }

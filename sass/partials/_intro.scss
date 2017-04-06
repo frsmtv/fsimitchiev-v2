@@ -1,0 +1,17 @@
+#intro {
+  p {
+    font-size: 3rem;
+    span.smaller {
+      opacity: .8;
+      font-size: 90%
+    }
+    span.smallerr {
+      opacity: .6;
+      font-size: 70%
+    }
+    span.smallerrr {
+      opacity: .4;
+      font-size: 50%
+    }
+  }
+}
