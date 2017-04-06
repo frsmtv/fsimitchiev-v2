@@ -12,21 +12,10 @@ html, body {
   line-height: 1.6;
   letter-spacing: 2px;
   font-family: 'Open Sans', sans-serif;
-  color: #333
-}
-
-h1 {
-  display: none;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 100;
-  line-height: 2;
-  margin-bottom: 20px;
-  span {
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 2px;
-    font-size: 67%;
-  }
+  color: #333;
+  // background: url('../img/mesh.jpg');
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
 
 a {
@@ -48,11 +37,12 @@ a.active {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 section {
+  padding: 0 10%;
   p {
-    padding: 10%;
-    font-size: 1.5rem
+    margin-bottom: 0;
   }
 }
