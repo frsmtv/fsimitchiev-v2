@@ -1,17 +1,30 @@
 #intro {
+  height: 100vh;
+  background: #000;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
   h1 {
-    font-size: 6vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Yep! */
+    font-size: 5vh;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2vh;
     font-weight: 100;
-    line-height: 1.2;
+    line-height: 1.4;
+    color: #fff;
     margin-bottom: 20px;
     @media only screen and (min-device-height : 1045px) {
       letter-spacing: 1vh;
     }
     span {
-      font-size: 70%;
+      font-size: 46%;
+      letter-spacing: 1vh;
     }
   }
 }

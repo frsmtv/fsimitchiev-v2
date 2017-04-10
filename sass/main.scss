@@ -1,5 +1,7 @@
 @import "partials/header";
 @import "partials/intro";
+@import "partials/projects";
+@import "partials/archive";
 @import "partials/contact";
 @import "partials/footer";
 
@@ -12,10 +14,7 @@ html, body {
   line-height: 1.6;
   letter-spacing: 2px;
   font-family: 'Open Sans', sans-serif;
-  color: #333;
-  // background: url('../img/mesh.jpg');
-  // background-repeat: no-repeat;
-  // background-size: cover;
+  color: #333;  
 }
 
 a {
