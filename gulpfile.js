@@ -46,7 +46,7 @@ gulp.task('css', function(){
       }))
   .pipe(concatCss("bundle.css")) // concaténation de tous les fichiers css en un seul
     .pipe(minifyCss()) // compresser css
-    .pipe(gulp.dest('dist/css/')) // permet d'envoyer le fichier minifié dans le rép dist/css
+    .pipe(gulp.dest('css/')) // permet d'envoyer le fichier minifié dans le rép dist/css
     .pipe(notify("CSS compréssée et concaténée !")) // Envoie une notif quand la css est modifiée
 
     .pipe(reload({stream:true, once:true})); // permet de re-sync le browser
@@ -63,7 +63,7 @@ gulp.task('sass', function(){
       }))
   .pipe(concat("bundle-sass.css")) // concaténation de tous les fichiers sass en un seul
     .pipe(minifyCss()) // compresser css
-    .pipe(gulp.dest('dist/css/')) // permet d'envoyer le fichier minifié dans le rép dist/css
+    .pipe(gulp.dest('css/')) // permet d'envoyer le fichier minifié dans le rép dist/css
     .pipe(notify("SASS compilée compréssée et concaténée !")) // Envoie une notif quand la css est modifiée
     .pipe(reload({stream:true, once:true })); // permet de re-sync le browser
 });

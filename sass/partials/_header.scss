@@ -1,15 +1,10 @@
 header {
   #main-nav {
-    color: #fff;
-    position: fixed;
-    top: 50px;
-    left: 0;
-    width: 100%;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 70%;
     display: flex;
     justify-content: space-around;
-    z-index: 10000;
+    display: none;
   }
 }
