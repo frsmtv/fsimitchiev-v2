@@ -1,0 +1,10 @@
+footer {
+  padding: 0 10%;
+  margin-bottom: 200px;
+  p {
+    font-size: 80%;
+    &:last-child {
+      font-size: 70%;
+    }
+  }
+}
