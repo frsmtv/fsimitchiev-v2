@@ -39,24 +39,25 @@ ul {
   margin: 0;
 }
 
-// FIXED BORDER
-#top, #bottom, #left, #right {
-	background: orangered;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 2px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 2px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
+// // FIXED BORDER
+// #top, #bottom, #left, #right {
+//   display: none;
+// 	background: orangered;
+// 	position: fixed;
+// 	}
+// 	#left, #right {
+// 		top: 0; bottom: 0;
+// 		width: 2px;
+// 		}
+// 		#left { left: 0; }
+// 		#right { right: 0; }
+//
+// 	#top, #bottom {
+// 		left: 0; right: 0;
+// 		height: 2px;
+// 		}
+// 		#top { top: 0; }
+// 		#bottom { bottom: 0; }
 
 // SCROLLBARS
 ::-webkit-scrollbar {

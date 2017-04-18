@@ -25,6 +25,9 @@
     span {
       font-size: 60%;
       letter-spacing: 1vh;
+      @media only screen and (min-device-height : 1045px) {
+        font-size: 45%;
+      }
     }
   }
   i {
