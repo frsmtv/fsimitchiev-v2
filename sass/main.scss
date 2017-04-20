@@ -75,6 +75,15 @@ ul {
 section {
   padding: 0 10%;
   margin-bottom: 200px;
+  h2 {
+    color: #fff;
+    background: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1%;
+    margin-left: -50px;
+    display: inline;
+  }
   p {
     margin-bottom: 0;
   }
