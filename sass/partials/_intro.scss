@@ -1,6 +1,9 @@
 #intro {
   height: 100vh;
   // background: #000;
+  background: url('../img/francois-simitchiev-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
@@ -17,7 +20,7 @@
     letter-spacing: 2vh;
     font-weight: 100;
     line-height: 1.4;
-    // color: #fff;
+    color: #fff;
     margin-bottom: 20px;
     @media only screen and (min-device-height : 1045px) {
       letter-spacing: 1vh;
@@ -31,7 +34,7 @@
     }
   }
   i {
-    // color: #fff;
+    color: #fff;
     position: absolute;
     left: 50%;
     top: 80%;
