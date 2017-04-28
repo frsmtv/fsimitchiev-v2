@@ -39,7 +39,7 @@ gulp.task('html', function(){
 
 gulp.task('css', function(){
   console.log('Ma tâche pour la css');
-  return gulp.src('./css/**/*.css') // choisir fichiers css
+  return gulp.src('/css/**/*.css') // choisir fichiers css
   .pipe(autoprefixer({
           browsers: ['last 2 versions'],
           cascade: false
