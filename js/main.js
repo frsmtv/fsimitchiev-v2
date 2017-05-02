@@ -8,7 +8,7 @@ $(document).ready(function () {
         scroll_start = $(this).scrollTop();
         if(scroll_start > offset.top) {
             // $('#intro').css('background', '#fff');
-            $('#main-nav').css('color', '#333').addClass('animated fadeInUp');
+            // $('#main-nav').css('color', '#333').addClass('animated fadeInUp');
             $('h2').addClass('animated fadeInDown');
             $('#projects').addClass('animated fadeIn');
             $('#intro').addClass('animated fadeOut');
@@ -16,7 +16,7 @@ $(document).ready(function () {
 
         } else {
             // $('#intro').css('background', '#000');
-            $('#main-nav').css('color', '#fff').removeClass('animated fadeInUp');
+            // $('#main-nav').css('color', '#fff').removeClass('animated fadeInUp');
             $('h2').removeClass('animated fadeInDown');
             $('#projects').removeClass('animated fadeIn');
             $('#intro').removeClass('animated fadeOut');
