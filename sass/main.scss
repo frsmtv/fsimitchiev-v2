@@ -78,15 +78,16 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .2;
-  // border: 10px solid #333;
+  border: 10px solid #333;
 }
 
 section {
   padding: 0 10%;
   margin-bottom: 200px;
   h2 {
-    color: #fff;
-    background: #000;
+    // color: #fff;
+    // background: #000;
+    border: 5px solid #000;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 1%;
