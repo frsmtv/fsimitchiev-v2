@@ -25,6 +25,9 @@ $(document).ready(function () {
         }
     });
 
+    // PARALLAX
+    $('#frame').parallaxBackground();
+
     // SCROLLA
     $('.animate').scrolla();
 

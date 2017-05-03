@@ -1,5 +1,6 @@
 @import "partials/header";
 @import "partials/intro";
+@import "partials/about";
 @import "partials/projects";
 @import "partials/archive";
 @import "partials/contact";
@@ -68,13 +69,14 @@ ul {
 
 #frame {
   // display: none;
-  position: fixed;
-  z-index: -1;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); /* Yep! */
+  // position: fixed;
+  // z-index: -1;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%, -50%); /* Yep! */
+  margin: auto;
   width: 82%;
-  height: 80%;
+  height: 800px;
   background: url('../img/bass.jpg');
   background-repeat: no-repeat;
   background-size: cover;
