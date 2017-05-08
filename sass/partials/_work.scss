@@ -1,0 +1,20 @@
+section#work {
+  width: 800px;
+  margin: 200px auto;
+  position: relative!important;
+  div#work-wrapper {
+    display: flex;
+    div.project {
+      img {
+        width: 400px;
+      }
+    }
+    div#work-wrapper-left {
+      margin-right: 6px;
+
+    }
+    div#work-wrapper-right {
+      margin-top: 80px;
+    }
+  }
+}

@@ -1,8 +1,7 @@
 @import "partials/header";
 @import "partials/intro";
 @import "partials/about";
-@import "partials/projects";
-@import "partials/archive";
+@import "partials/work";
 @import "partials/contact";
 @import "partials/footer";
 
@@ -15,7 +14,7 @@ html, body {
   line-height: 1.6;
   letter-spacing: 2px;
   font-family: 'Open Sans', sans-serif;
-  color: #333;
+  color: #000;
   // background-size: cover;
   // background: #E0EAFC;  /* fallback for old browsers */
   // background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
@@ -25,9 +24,9 @@ html, body {
 // background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
 // background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-background: #ECE9E6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// background: #ECE9E6;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -40,11 +39,10 @@ a {
   -o-transition: all 400ms ease;
   transition: all 400ms ease;
   &:hover {
-  padding: 1%;
-  margin: 2% 0;
-  background: #ef32d9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: .6;
+  // background: #ef32d9;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }
 
@@ -87,6 +85,16 @@ ul {
 section {
   padding: 0 10%;
   margin-bottom: 200px;
+  position: absolute;
+  height: 100vh;
+  margin: auto;
+  text-align: justify;
+  color: #fff;
+  text-transform: uppercase;
+  p {
+    width: 70%;
+    margin: 20px auto;
+  }
   h2 {
     // color: #fff;
     // background: #000;

@@ -15,8 +15,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
-    <link rel="stylesheet" href="css/jquery.accordion.css">
+    <link rel="stylesheet" href="css/ap-fullscreen-modal.css">
     <link rel="stylesheet" href="css/bundle-sass.css">
 </head>
 
@@ -25,12 +24,22 @@
     <!-- HEADER -->
     <header class="animated fadeIn">
 
+        <!-- NAV TOGGLE -->
+        <a href="index.html"><h1>francois <br>
+            simitchiev</h1></a>
+
+        <i id="toggle-nav" class="fa fa-bars" aria-hidden="true"></i>
+
+
         <!--  MAIN NAV  -->
         <ul id="main-nav">
-            <li><a href="#intro">françois simitchiev</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a href="#archive">older works</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a id="info-btn" href="#modal-about">à propos</a></li>
+            <li><a id="contact-btn" href="#contact">contact</a></li>
+            <li><a id="credits-btn" href="#credits">crédits</a></li>
+            <li class="italic"><a href="mailto:contact@fsimitchiev.com">contact@fsimitchiev.com</a> <br>
+            +33 6 63351022</li>
+            <li class="italic"><a href="#">soundcloud</a> <br>
+            <a href="#">twitter</a></li>
         </ul> <!-- End: main nav -->
 
     </header>
@@ -47,125 +56,176 @@
 
         </section> <!-- End: intro -->
 
-        <!-- FRAME -->
-        <div id="frame" data-parallax-bg-image="img/bass.jpg" data-parallax-bg-position="center center" data-parallax-bg-size="contain" data-parallax-speed= ".6" data-parallax-direction= "down">
-        </div>     
+        <!-- WORK -->
+        <section id="work">
 
-        <!--  ARCHIVE  -->
-        <section id="archive" class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.1s" data-offset="1">
+            <!-- WORK WRAPPER -->
+            <div id="work-wrapper">
 
-                <h2 class="animate" data-animate="fadeInDown" data-duration="1.5s" data-delay="0.1s" data-offset="1">sélection archive</h2>
+                <!-- WORK WRAPPER LEFT COL -->
+                <div id="work-wrapper-left" class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.1s" data-offset="1">
 
-                <!-- <ul id="archive-elements">
+                    <!-- NEW PROJECT -->
+                    <div class="project">
 
-                    <li><a href="#"><img src="img/mesh.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="img/mesh.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="img/mesh.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="img/mesh.jpg" alt=""></a></li>
+                        <a href="#"><img src="img/francois-simitchiev-mountains.jpg" alt=""></a>
 
-                </ul> -->
-
-
-                <!-- ACCORDION -->
-                <div data-accordion-group>
-
-                    <div class="accordion" data-accordion>
-                        <div data-control>ahrk #1 w/ claire sciacco</div>
-                        <div data-content>
-                            <div><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/211514544&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
-                        </div>
                     </div>
 
-                    <div class="accordion" data-accordion>
-                        <div data-control>dawn of collapse</div>
-                        <div data-content>
-                            <div><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231419459&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
-                        </div>
-                    </div>
+                    <!-- NEW PROJECT -->
+                    <div class="project">
 
-                    <div class="accordion" data-accordion>
-                        <div data-control>poeme grave <span>w/ claire sciacco</span></div>
-                        <div data-content>
-                            <div><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/158395331&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
-                        </div>
-                    </div>
+                        <a href="#"><img src="img/francois-simitchiev-dawn-of-collapse.jpg" alt=""></a>
 
-                    <div class="accordion" data-accordion>
-                        <div data-control>winter on the baltic <span>w/ louis ouvrard</span></div>
-                        <div data-content>
-                            <div><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/185923234&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
-                        </div>
                     </div>
 
                 </div>
 
-        </section> <!-- End: archive -->
+                <!-- WORK WRAPPER RIGHT COL -->
+                <div id="work-wrapper-right" class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.3s" data-offset="1">
+
+                    <!-- NEW PROJECT -->
+                    <div class="project">
+
+                        <a href="#"><img src="img/francois-simitchiev-poeme-grave.jpg" alt=""></a>
+
+                    </div>
+
+                    <!-- NEW PROJECT -->
+                    <div class="project">
+
+                        <a href="#"><img src="img/francois-simitchiev-winter-on-the-baltic.jpg" alt=""></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
         <!-- ABOUT -->
-        <section id="about" class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.1s" data-offset="1">
+        <!-- MODAL > ABOUT -->
+        <div style="display: none;">
 
-            <h2 class="animate" data-animate="fadeInDown" data-duration="1.5s" data-delay="0.1s" data-offset="1">à propos</h2>
+            <div id="modal-about" class="modal-content">
+                <div class="wrapper">
 
-            <p>
-                Après des études de contrebasse classique l'ayant mené du Conservatoire de Clermont Ferrand à celui de Boulogne Billancourt, François Simitchiev développe un fort intérêt pour les musiques baroque et contemporaine, ainsi que pour la musique électronique. Il se forme en autodidacte à la prise de son, au mixage et à la production, et entâme une démarche créative et expérimentale en parrallèle de son métier d'instrumentiste.
-            </p>
+                    <section id="about" class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.1s" data-offset="1">
 
-            <p>
-                Son travail est une approche minimaliste et souvent contemplative de l'improvisation et des mouvements répétitifs, et se situe aux confluences de la musique classique, du sound art, de l'ambient et de la musique électronique, mêlant instruments acoustiques, samples, fields recordings et machines, le travail de la matière sonore occupant toujours une place centrale.
-            </p>
+                        <!-- <h2 class="animate" data-animate="fadeInDown" data-duration="1.5s" data-delay="0.1s" data-offset="1">à propos</h2> -->
 
-            <p>
-                Polyvalent et curieux, toujours à la recherche de nouvelles collaborations, François Simitchiev est désormais attiré par la composition et le sound design pour le film, la danse, le théâtre, des installations etc ... sans pour autant vouloir quitter la scène.
-            </p>
+                        <p>
+                            Après des études de contrebasse classique l'ayant mené du Conservatoire de Clermont Ferrand à celui de Boulogne Billancourt, François Simitchiev développe un fort intérêt pour les musiques baroque et contemporaine, ainsi que pour la musique électronique. Il se forme en autodidacte à la prise de son, au mixage et à la production, et entâme une démarche créative et expérimentale en parrallèle de son métier d'instrumentiste.
+                        </p>
 
-        </section> <!-- End: about -->
+                        <p>
+                            Son travail est une approche minimaliste et souvent contemplative de l'improvisation et des mouvements répétitifs, et se situe aux confluences de la musique classique, du sound art, de l'ambient et de la musique électronique, mêlant instruments acoustiques, samples, fields recordings et machines, le travail de la matière sonore occupant toujours une place centrale.
+                        </p>
+
+                        <p>
+                            Polyvalent et curieux, toujours à la recherche de nouvelles collaborations, François Simitchiev est désormais attiré par la composition et le sound design pour le film, la danse, le théâtre, des installations etc ... sans pour autant vouloir quitter la scène.
+                        </p>
+
+                    </section> <!-- End: about -->
+
+                </div> <!-- End: wrapper -->
+
+            </div> <!-- End: modal-content-1 -->
+
+        </div> <!-- End: Modal > about -->
 
         <!--  CONTACT  -->
-        <section id="contact" class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.1s" data-offset="1">
+        <!-- MODAL > CONTACT -->
+        <div style="display: none;">
 
-            <h2 class="animate" data-animate="fadeInDown" data-duration="1.5s" data-delay="0.1s" data-offset="1">contact</h2>
+            <div id="modal-contact" class="modal-content">
+                <div class="wrapper">
 
-            <ul>
+                    <section id="contact" class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.1s" data-offset="1">
 
-                <li><a href="mailto:fsimitchiev@gmail.com">fsimitchiev@gmail.com</a></li>
-                <li><a href="tel:+33663351022">+33 663351022</a></li>
-                <li><a href="#">soundcloud</a></li>
-                <li><a href="#">twitter</a></li>
+                        <!-- <h2 class="animate" data-animate="fadeInDown" data-duration="1.5s" data-delay="0.1s" data-offset="1">contact</h2> -->
 
-            </ul>
+                        <ul>
 
-        </section> <!-- End: contact -->
+                            <li><a href="mailto:fsimitchiev@gmail.com">fsimitchiev@gmail.com</a></li>
+                            <li><a href="tel:+33663351022">+33 663351022</a></li>
+                            <li><a href="#">soundcloud</a></li>
+                            <li><a href="#">twitter</a></li>
+
+                        </ul>
+
+                    </section> <!-- End: contact -->
+
+                </div> <!-- End: wrapper -->
+
+            </div> <!-- End: modal-content-1 -->
+
+        </div> <!-- End: Modal > contact -->
+
+        <!-- CREDITS -->
+        <!-- MODAL > CREDITS -->
+        <div style="display: none;">
+
+            <div id="modal-credits" class="modal-content">
+                <div class="wrapper">
+
+                    <footer class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.1s" data-offset="1">
+
+                        <h2 class="animate" data-animate="fadeInDown" data-duration="1.5s" data-delay="0.1s" data-offset="1">© 2017</h2>
+
+                        <p>
+                        Tout le contenu audio présenté sur ce site est la propriété intellectuelle de François Simitchiev (sauf mentions spéciales) | Tous droits réservés.<br>
+                        Si vous souhaitez utiliser une ou plusieurs de mes pièces pour votre projet, n'hésitez pas à me contacter.<br>
+                        Il est également possible que je compose de nouvelles pièces spécialement pour votre projet.</p>
+
+                        <p>
+                            Site by <b><a href="http://a-f.studio" target="_blank">A+F</a></b>
+                        </p>
+
+                    </footer>
+
+                </div> <!-- End: wrapper -->
+
+            </div> <!-- End: modal-content-1 -->
+
+        </div> <!-- End: Modal > credits -->
 
     </main>
 
-    <footer class="animate" data-animate="fadeIn" data-duration="1.5s" data-delay="0.1s" data-offset="1">
-
-        <h2 class="animate" data-animate="fadeInDown" data-duration="1.5s" data-delay="0.1s" data-offset="1">© 2017</h2>
-
-        <p>
-        Tout le contenu audio présenté sur ce site est la propriété intellectuelle de François Simitchiev | Tous droits réservés.<br>
-        Si vous souhaitez utiliser une ou plusieurs de mes pièces pour votre projet, n'hésitez pas à me contacter.<br>
-        Il est également possible que je compose de nouvelles pièces spécialement pour votre projet.</p>
-
-        <p>
-            Site by <b><a href="http://a-f.studio" target="_blank">A+F</a></b>
-        </p>
-
-    </footer>
-
 <script src="js/jquery.slim.min.js"></script>
-<script src="js/jquery.accordion.js"></script>
 <script src="js/scrolla.jquery.min.js"></script>
-<script src="js/parallax-background.min.js"></script>
+<script src="js/ap-fullscreen-modal.min.js"></script>
 <script src="js/main.js"></script>
 
-<!-- ACCORDION -->
+<!-- MODAL ABOUT -->
 <script type="text/javascript">
-$(document).ready(function() {
-    $('.accordion').accordion({
-        "transitionSpeed": 400
-    });
-});
+  $(document).ready(function(){
+    $('#modal-about').apFullscreenModal({
+       openSelector: '#info-btn',
+       closeSelector: '.modal-content'
+     });
+  });
+</script>
+
+<!-- MODAL CONTACT -->
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#modal-contact').apFullscreenModal({
+       openSelector: '#contact-btn',
+       closeSelector: '.modal-content'
+     });
+  });
+</script>
+
+<!-- MODAL CREDITS -->
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#modal-credits').apFullscreenModal({
+       openSelector: '#credits-btn',
+       closeSelector: '.modal-content'
+     });
+  });
 </script>
 
 </body>
