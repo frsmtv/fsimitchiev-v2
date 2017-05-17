@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Francois Simitchiev is a classically trained double bassist, and a music producer living in Lyon, France.">
+    <meta name="author" content="Typed in">
+    <title>François Simitchiev - Contrabassist, music producer</title>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+
+    <!-- FAVICON -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/ap-fullscreen-modal.css">
+    <link rel="stylesheet" href="css/sc-player.css">
+    <link rel="stylesheet" href="css/bundle-sass.css">
+</head>
+
+<body class="animated fadeIn">
+
+    <!-- MAIN -->
+    <main class="animated fadeIn">
+
+        <section class="single-project">
+
+            <!-- RETURN BUTTON -->
+            <div class="return">
+
+                <a href="index.html"><i class="fa fa-backward" aria-hidden="true"></i></a>
+
+            </div>
+
+            <!-- CONTENT -->
+            <h2>winter on the baltic</h2>
+
+            <div id="soundPlayer">
+
+            </div>
+
+            <!-- PHOTO PARALLAX -->
+            <div class="parallax" data-parallax-bg-image="img/francois-simitchiev-winter-on-the-baltic.jpg" data-parallax-bg-position="center center" data-parallax-bg-size="contain" data-parallax-speed= ".5" data-parallax-direction= "down">
+            </div>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+        </section>
+
+    </main>
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/parallax-background.min.js"></script>
+<script src="js/modernizr_audio_video.js"></script>
+<script src="js/jquery.knob.js"></script>
+<script src="js/sdk-2.0.0.js"></script>
+<script src="js/minimalPlayer.js"></script>
+<script src="js/main.js"></script>
+
+<!-- SC PLAYER -->
+<script type="text/javascript">
+
+$(document).ready(function(e) { $('#soundPlayer').minimalPlayer({
+songs:["music/13_4_17-v3.mp3"],  autoStart:true,
+bgKnobColor:'#000', fgKnobColor:'#000', buttonColor:'#000',
+width:60,
+height:60 });
+});
+
+</script>
+
+
+</body>
+</html>

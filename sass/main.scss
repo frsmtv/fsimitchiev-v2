@@ -2,6 +2,7 @@
 @import "partials/intro";
 @import "partials/about";
 @import "partials/work";
+@import "partials/singleproject";
 @import "partials/contact";
 @import "partials/footer";
 
@@ -80,6 +81,11 @@ ul {
   background-size: cover;
   opacity: .2;
   border: 10px solid #333;
+}
+
+div.parallax {
+  height: 500px;
+  width: 100vw;
 }
 
 section {

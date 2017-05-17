@@ -38,6 +38,8 @@ $(document).ready(function () {
     //   $('div.modal-content').hide();
     // });
 
+    // PARALLAX
+    $('.parallax').parallaxBackground();
 
     // SCROLLA
     $('.animate').scrolla();
