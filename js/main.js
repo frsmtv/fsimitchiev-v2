@@ -18,12 +18,12 @@ $(document).ready(function () {
     });
 
     // TOGGLE-NAV
-    $('header').mouseover(function(){
-      $('#main-nav').css('visibility', 'visible').removeClass('animated fadeOutUp').addClass('animated fadeInDown');
-    })
-    $('#main-nav').mouseout(function(){
-      $('#main-nav').css('visibility', 'hidden').removeClass('animated fadeInDown').addClass('animated fadeOutUp');
-    })
+    // $('header').mouseover(function(){
+    //   $('#main-nav').css('visibility', 'visible').removeClass('animated fadeOutUp').addClass('animated fadeInDown');
+    // })
+    // $('#main-nav').mouseout(function(){
+    //   $('#main-nav').css('visibility', 'hidden').removeClass('animated fadeInDown').addClass('animated fadeOutUp');
+    // })
 
     $('#toggle-nav').click(function(){
       $('#main-nav').css('visibility', 'visible').removeClass('animated fadeOutUp').addClass('animated fadeInDown');
