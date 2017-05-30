@@ -41,36 +41,31 @@ header {
   }
   #main-nav {
     visibility: hidden;
-    background: #fff;
-    height: 110px;
+    color: #fff;
+    background: #000;
     position: absolute;
     z-index: 998;
     width: 100%;
-    top: 0;
-    left: 0;
-    padding-top: 40px;
-    padding-left: 40px;
+    height: 100vh;
     text-transform: uppercase;
-    align-items: center;
     letter-spacing: 4px;
     font-size: .8rem;
     font-weight: bold;
-    display: flex;
-    li {
-      margin-right: 40px;
-      &.italic {
-        position: absolute;
-        top: 80px;
-        right: 80px;
-        font-style: italic;
-        text-transform: none;
-        font-family: serif;
-        letter-spacing: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        &:last-child {
-          margin-right: 300px;
-        }
+    top: 0;
+    left: 0;
+    #main-nav-content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); /* Yep! */
+      width: 100%;
+      text-align: center;
+      h2 {
+        font-size: 5vh;
+      }
+      ul {
+        line-height: 2;
+        font-size: 3vh;
       }
     }
   }

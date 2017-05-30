@@ -114,4 +114,64 @@ section {
   p {
     margin-bottom: 0;
   }
+  .project {
+    position: relative;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+    &:hover {
+      cursor: crosshair;
+      opacity: .6;
+    }
+    img {
+      -webkit-transition: all 400ms ease;
+      -moz-transition: all 400ms ease;
+      -ms-transition: all 400ms ease;
+      -o-transition: all 400ms ease;
+      transition: all 400ms ease;
+    }
+    .hide {
+      opacity: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      -webkit-transition: all 400ms ease;
+      -moz-transition: all 400ms ease;
+      -ms-transition: all 400ms ease;
+      -o-transition: all 400ms ease;
+      transition: all 400ms ease;
+      iframe {
+        margin-bottom: 20px;
+        visibility: hidden;
+      }
+      h2 {
+        color: #000;
+        display: inline;
+        font-size: 1rem;
+      }
+      p {
+        color: #000;
+        font-size: .7rem;
+        width: 100%;
+      }
+      i {
+        color: #000;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        -webkit-transition: all 400ms ease;
+        -moz-transition: all 400ms ease;
+        -ms-transition: all 400ms ease;
+        -o-transition: all 400ms ease;
+        transition: all 400ms ease;
+        &:hover {
+          cursor: pointer;
+          opacity: .6;
+        }
+      }
+    }
+  }
 }

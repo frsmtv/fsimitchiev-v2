@@ -26,10 +26,26 @@ $(document).ready(function () {
     // })
 
     $('#toggle-nav').click(function(){
-      $('#main-nav').css('visibility', 'visible').removeClass('animated fadeOutUp').addClass('animated fadeInDown');
+      $('#main-nav').css('visibility', 'visible').removeClass('animated fadeOut').addClass('animated fadeInDown');
     });
-    $('main').click(function(){
-      $('#main-nav').css('visibility', 'hidden').removeClass('animated fadeInDown').addClass('animated fadeOutUp');
+    $('#main-nav-content').click(function(){
+      $('#main-nav').css('visibility', 'hidden').removeClass('animated fadeInDown').addClass('animated fadeOut');
+    });
+
+    // PROJECTS HIDDEN CONTENT REVEAL ON HOVER
+    $('.project').click(function(){
+      $(this).find('.hide').css('opacity', '1');
+      $(this).find('iframe').css('visibility', 'visible');
+      $(this).find('img').css('opacity', '0');
+      $('.project').not(this).find('img').css('opacity', '0');
+      $('footer').hide();
+    });
+
+    $('.close').click(function(){
+      javascript:window.location.reload();
+      $('footer').show();
+      // $('.hide').css('opacity', '0');
+      // $('.project').find('img').opacity('1');
     });
 
     // MODALS CLOSING
@@ -39,7 +55,7 @@ $(document).ready(function () {
     // });
 
     // PARALLAX
-    $('.parallax').parallaxBackground();
+    // $('.parallax').parallaxBackground();
 
     // SCROLLA
     $('.animate').scrolla();

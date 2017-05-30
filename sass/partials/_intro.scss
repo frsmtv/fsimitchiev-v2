@@ -1,6 +1,7 @@
 #intro {
   position: relative!important;
   height: 100vh;
+  padding: 0;
   background: url('../img/bass.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,35 +12,50 @@
   transition: all 400ms ease;
   h1 {
     position: absolute;
+    width: 100%;
     z-index: 999;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); /* Yep! */
-    font-size: 3vh;
+    font-size: 5vh;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2vh;
+    // text-transform: none;
+    // letter-spacing: 2vh;
     font-weight: 200;
-    line-height: 1.4;
+    line-height: 1.2;
     color: #fff;
+    // font-family: serif;
+    // font-style: italic;
     margin-bottom: 20px;
     @media only screen and (min-device-height : 1045px) {
       letter-spacing: 1vh;
     }
     span {
-      font-size: 60%;
-      letter-spacing: 1vh;
-      @media only screen and (min-device-height : 1045px) {
-        font-size: 45%;
-      }
+      // font-weight: bold;
+      // font-family: sans-serif;
+      text-transform: uppercase;
+      font-style: normal;
+      font-size: 7vh;
     }
   }
   i {
     color: #fff;
     position: absolute;
     left: 50%;
-    top: 80%;
+    top: 90%;
     transform: translate(-50%, -50%); /* Yep! */
     font-size: 5vh;
+  }
+}
+#slogan {
+  h2 {
+    color: #000;
+    font-size: 4vh;
+    font-family: serif;
+    text-align: center;
+    font-style: italic;
+    text-transform: none;
+    font-weight: normal;
+    border: none;
   }
 }
