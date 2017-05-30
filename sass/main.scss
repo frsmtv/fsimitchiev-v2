@@ -116,14 +116,8 @@ section {
   }
   .project {
     position: relative;
-    -webkit-transition: all 400ms ease;
-    -moz-transition: all 400ms ease;
-    -ms-transition: all 400ms ease;
-    -o-transition: all 400ms ease;
-    transition: all 400ms ease;
     &:hover {
       cursor: crosshair;
-      opacity: .6;
     }
     img {
       -webkit-transition: all 400ms ease;
@@ -131,9 +125,12 @@ section {
       -ms-transition: all 400ms ease;
       -o-transition: all 400ms ease;
       transition: all 400ms ease;
+      &:hover {
+        opacity: .6;
+      }
     }
     .hide {
-      opacity: 0;
+      visibility: hidden;
       position: absolute;
       width: 100%;
       height: 100%;

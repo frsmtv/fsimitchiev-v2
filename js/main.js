@@ -33,20 +33,20 @@ $(document).ready(function () {
     });
 
     // PROJECTS HIDDEN CONTENT REVEAL ON HOVER
-    $('.project').click(function(){
-      $(this).find('.hide').css('opacity', '1');
-      $(this).find('iframe').css('visibility', 'visible');
-      $(this).find('img').css('opacity', '0');
-      $('.project').not(this).find('img').css('opacity', '0');
-      $('footer').hide();
-    });
-
-    $('.close').click(function(){
-      javascript:window.location.reload();
-      $('footer').show();
-      // $('.hide').css('opacity', '0');
-      // $('.project').find('img').opacity('1');
-    });
+    // $('.project').click(function(){
+    //   $(this).find('.hide').css('visibility', 'visible');
+    //   $(this).find('iframe').css('visibility', 'visible');
+    //   $(this).find('img').css('opacity', '0');
+    //   $('.project').not(this).find('img').css('opacity', '0');
+    //   $('footer').hide();
+    // });
+    //
+    // $('.close').click(function(){
+    //   javascript:window.location.reload();
+    //   $('footer').show();
+    //   // $('.hide').css('opacity', '0');
+    //   // $('.project').find('img').opacity('1');
+    // });
 
     // MODALS CLOSING
     // $('div.modal-content').click(function(){
