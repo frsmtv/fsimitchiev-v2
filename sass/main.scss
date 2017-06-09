@@ -15,20 +15,7 @@ html, body {
   line-height: 1.6;
   letter-spacing: 2px;
   font-family: 'Open Sans', sans-serif;
-  color: #000;
-  // background-size: cover;
-  // background: #E0EAFC;  /* fallback for old browsers */
-  // background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-  // background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-//   background: #8e9eab;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-// background: #ECE9E6;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  color: #333;
 }
 
 a {
@@ -66,109 +53,7 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
 }
 
-#frame {
-  // display: none;
-  // position: fixed;
-  // z-index: -1;
-  // left: 50%;
-  // top: 50%;
-  // transform: translate(-50%, -50%); /* Yep! */
-  margin: auto;
-  width: 82%;
-  height: 800px;
-  background: url('../img/bass.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: .2;
-  border: 10px solid #333;
-}
-
 div.parallax {
   height: 500px;
   width: 100vw;
-}
-
-section {
-  padding: 0 10%;
-  margin-bottom: 200px;
-  position: absolute;
-  height: 100vh;
-  margin: auto;
-  text-align: justify;
-  color: #fff;
-  text-transform: uppercase;
-  p {
-    width: 70%;
-    margin: 20px auto;
-  }
-  h2 {
-    // color: #fff;
-    // background: #000;
-    border: 5px solid #000;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 1%;
-    margin-left: -50px;
-    display: inline-block;
-  }
-  p {
-    margin-bottom: 0;
-  }
-  .project {
-    position: relative;
-    &:hover {
-      cursor: crosshair;
-    }
-    img {
-      -webkit-transition: all 400ms ease;
-      -moz-transition: all 400ms ease;
-      -ms-transition: all 400ms ease;
-      -o-transition: all 400ms ease;
-      transition: all 400ms ease;
-      &:hover {
-        opacity: .6;
-      }
-    }
-    .hide {
-      visibility: hidden;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      -webkit-transition: all 400ms ease;
-      -moz-transition: all 400ms ease;
-      -ms-transition: all 400ms ease;
-      -o-transition: all 400ms ease;
-      transition: all 400ms ease;
-      iframe {
-        margin-bottom: 20px;
-        visibility: hidden;
-      }
-      h2 {
-        color: #000;
-        display: inline;
-        font-size: 1rem;
-      }
-      p {
-        color: #000;
-        font-size: .7rem;
-        width: 100%;
-      }
-      i {
-        color: #000;
-        margin-top: 20px;
-        font-size: 1.2rem;
-        -webkit-transition: all 400ms ease;
-        -moz-transition: all 400ms ease;
-        -ms-transition: all 400ms ease;
-        -o-transition: all 400ms ease;
-        transition: all 400ms ease;
-        &:hover {
-          cursor: pointer;
-          opacity: .6;
-        }
-      }
-    }
-  }
 }
