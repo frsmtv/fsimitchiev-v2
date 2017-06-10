@@ -81,7 +81,7 @@ $(document).ready(function () {
 		navigationColor: '#000',
 		navigationTooltips: [],
 		loopBottom: true,
-		loopTop: false,
+		loopTop: true,
 		css3: false,
 		paddingTop: 0,
 		paddingBottom: 0,

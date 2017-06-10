@@ -28,15 +28,20 @@ header {
       display: flex;
       justify-content: space-between;
       li {
+        a {
+          padding-bottom: 4px;
+        }
         a.active {
+          border-bottom: 2px solid #333;
           &:hover {
             opacity: 1;
           }
         }
         a.inactive {
-          opacity: .6;
+          // opacity: .6;
           &:hover {
             opacity: 1;
+            border-bottom: 2px solid #333;
           }
         }
       }
