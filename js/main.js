@@ -1,19 +1,16 @@
 $(document).ready(function () {
 
-  // BG_COLOR CHANGE ON SCROLL START
+  // HIDE #HELP ON SCROLL START
   // var scroll_start = 0;
   //   var startchange = $('body');
   //   var offset = startchange.offset();
   //   $(document).scroll(function() {
   //       scroll_start = $(this).scrollTop();
   //       if(scroll_start > offset.top) {
-  //           // $('header').show();
-  //           $('#intro').addClass('animated fadeOut');
+  //           $('#help').hide();
   //
   //       } else {
-  //           // $('header').hide();
-  //           $('#intro').removeClass('animated fadeOut');
-  //           $('#intro').addClass('animated fadeIn');
+  //           $('#help').fadeIn();
   //       }
   //   });
 
@@ -69,6 +66,17 @@ $(document).ready(function () {
 	  //   ]
 		// });
 
+    // ABOUT HIDE PARAGRAPHS
+    $('.fa-plus').click(function(){
+      $('.hide').fadeIn();
+      $('.fa-plus').removeClass('fa-plus').addClass('fa-minus');
+    });
+
+    $('.fa-minus').click(function(){
+      $('.hide').hide();
+      $('.fa-minus').removeClass('fa-minus').addClass('fa-plus');
+    });
+
 		// MULTISCROLL
     $('#multiscroll').multiscroll({
 		verticalCentered : true,
@@ -105,6 +113,5 @@ $(document).ready(function () {
 		afterRender: function(){},
 		afterResize: function(){},
 	});
-
 
 });

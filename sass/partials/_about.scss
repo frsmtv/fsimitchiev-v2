@@ -7,13 +7,33 @@
   .about-col {
     padding: 50px;
     h2 {
-      font-size: 1.4rem!important;
+      font-size: 1.2rem!important;
       text-align: left;
       line-height: 1.4;
+      margin-top: 0;
     }
     p {
+      margin-top: 0;
+      font-size: .8rem;
       a {
+        padding-bottom: 4px;
         border-bottom: 2px solid #333;
+      }
+      i {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    p.hide {
+      display: none;
+    }
+    ul {
+      margin: 20px 0;
+      list-style: initial;
+      font-size: .8rem;
+      li {
+
       }
     }
   }

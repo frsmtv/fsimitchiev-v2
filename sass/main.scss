@@ -41,18 +41,27 @@ ul {
   margin: 0;
 }
 
+#help {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  width: 200px;
+  font-size: .6rem;
+  text-align: right;
+}
+
 // SCROLLBARS
-// ::-webkit-scrollbar {
-//     width: 4px;
-// }
-// ::-webkit-scrollbar-track {
-//     background-color: transparent;
-// }
-// ::-webkit-scrollbar-thumb {
-//     background-color: #000;
-// }
-// ::-webkit-scrollbar-thumb:hover {
-// }
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+}
+::-webkit-scrollbar-thumb:hover {
+}
 //
 // div.parallax {
 //   height: 500px;

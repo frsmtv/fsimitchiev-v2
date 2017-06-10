@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en^">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Francois Simitchiev is a classically trained double bassist, composer and music producer living in Lyon, France.">
+    <meta name="author" content="A+F">
+    <title>François Simitchiev - Contrabassist, music producer, composer</title>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+
+    <!-- FAVICON -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="PreLoadMe/css/preloader.css">
+    <link rel="stylesheet" href="css/jquery.multiscroll.css">
+    <link rel="stylesheet" href="css/bundle-sass.css">
+</head>
+
+<body class="animated fadeIn">
+
+  <!--**** PRELOADER ****-->
+  <div id="preloader">
+      <div id="status"></div>
+  </div>
+
+    <!-- HEADER -->
+    <header class="animated fadeIn">
+
+        <!--  MAIN NAV  -->
+        <div id="main-nav">
+
+            <ul id="brand">
+
+                <li><a href="index.html"><h1>François Simitchiev</h1></a></li>
+                <li><a href="mailto:fsimtichiev@gmail.com">fsimitchiev@gmail.com</a></li>
+
+            </ul>
+
+            <ul id="menu">
+
+                <li><a class="inactive" href="index.html">Music</a></li>
+                <li><a class="active" href="sound-design.html">Sound-design</a></li>
+                <li><a class="inactive" href="#">Projects</a></li>
+                <li><a class="inactive" href="about.html">About</a></li>
+                <li><a class="inactive" href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <div id="multiscroll" class="sound-design animated fadeIn">
+
+            <!-- LEFT COL -->
+        	<div class="ms-left">
+
+                <div class="ms-section">
+
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/PsqkZieEogE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+
+        		<div class="ms-section">
+
+                    <h2>Beeple - RMX<br>
+                    <span>re-soundDesigned</span></h2>
+
+                    <p>
+                      <b>Personal work<br>
+                      <i>70% of the sfx where made from manipulating kitchen tools recordings.</i></b><br>
+                      Real: Beeple / <a href="http://beeple-crap.com/">www.beeple-crap.com</a><br>
+                      Original : <a href="https://vimeo.com/79293746" target="_blank">https://vimeo.com/79293746</a>
+                    </p>
+
+                </div>
+
+        	</div>
+            <!-- End : left col -->
+
+            <!-- **********************************************************
+            **********************************************************
+            ********************************************************** -->
+
+            <!-- RIGHT COL -->
+        	<div class="ms-right">
+
+                <div class="ms-section">
+
+                    <h2>Saturn - Evolution<br>
+                      <span>re-soundDesigned</span></h2>
+
+                    <p>
+                      <b>Personal work</b><br>
+                      Real: Big Lazy Robot | <a href="http://biglazyrobot.com/" target="_blank">www.biglazyrobot.com</a><br>
+                      Original : <a href="https://vimeo.com/75754881" target="_blank">https://vimeo.com/75754881</a>
+                    </p>
+
+                    <!-- HELP MESSAGE -->
+                    <div id="help">
+                      <p>
+                        Scroll or use <i class="fa fa-caret-up" aria-hidden="true"></i>
+                       <i class="fa fa-caret-down" aria-hidden="true"></i> keys
+                      </p>
+                    </div>
+
+                </div>
+
+        		<div class="ms-section">
+
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/4pYNfxOfDJw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+
+        	</div>
+            <!-- End: right col -->
+
+        </div>
+        <!-- End: multiscroll -->
+
+    </main>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easings.min.js"></script>
+<script src="js/jquery.multiscroll.extensions.min.js"></script>
+<script src="js/jquery.multiscroll.min.js"></script>
+<script src="js/main.js"></script>
+
+<!--**** PRELOADER ****-->
+<script type="text/javascript">
+    //<![CDATA[
+    $(window).on('load', function() { // makes sure the whole site is loaded
+        $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({'overflow':'visible'});
+    });
+    //]]>
+</script>
+
+</body>
+</html>

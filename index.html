@@ -15,11 +15,17 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="PreLoadMe/css/preloader.css">
     <link rel="stylesheet" href="css/jquery.multiscroll.css">
     <link rel="stylesheet" href="css/bundle-sass.css">
 </head>
 
 <body class="animated fadeIn">
+
+  <!--**** PRELOADER ****-->
+  <div id="preloader">
+      <div id="status"></div>
+  </div>
 
     <!-- HEADER -->
     <header class="animated fadeIn">
@@ -36,8 +42,9 @@
 
             <ul id="menu">
 
-                <li><a class="active" href="index.html">Work</a></li>
-                <li><a class="inactive" href="#">Projects</a></li>
+                <li><a class="active" href="index.html">Music</a></li>
+                <!-- <li><a class="inactive" href="sound-design.html">Sound-design</a></li> -->
+                <!-- <li><a class="inactive" href="#">Projects</a></li> -->
                 <li><a class="inactive" href="about.html">About</a></li>
                 <li><a class="inactive" href="contact.html">Contact</a></li>
 
@@ -152,6 +159,14 @@
                         © 2017 | All rights reserved
                     </p>
 
+                    <!-- HELP MESSAGE -->
+                    <div id="help">
+                      <p>
+                        Scroll or use <i class="fa fa-caret-up" aria-hidden="true"></i>
+                       <i class="fa fa-caret-down" aria-hidden="true"></i> keys
+                      </p>
+                    </div>
+
                 </div>
 
         		<div class="ms-section">
@@ -237,6 +252,17 @@
 <script src="js/jquery.multiscroll.extensions.min.js"></script>
 <script src="js/jquery.multiscroll.min.js"></script>
 <script src="js/main.js"></script>
+
+<!--**** PRELOADER ****-->
+<script type="text/javascript">
+    //<![CDATA[
+    $(window).on('load', function() { // makes sure the whole site is loaded
+        $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({'overflow':'visible'});
+    });
+    //]]>
+</script>
 
 </body>
 </html>
