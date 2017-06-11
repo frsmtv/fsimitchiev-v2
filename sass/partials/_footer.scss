@@ -1,6 +1,7 @@
 footer {
   width: 830px;
   margin: auto;
+  margin-top: 50px;
   line-height: 1.6;
   // width: 100%;
   // height: 100vh;
@@ -9,7 +10,7 @@ footer {
     // left: 50%;
     // top: 50%;
     // transform: translate(-50%, -50%); /* Yep! */
-    font-size: .8rem;
+    font-size: .7rem;
     &:last-child {
       font-size: 70%;
     }

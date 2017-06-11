@@ -66,6 +66,9 @@ $(document).ready(function () {
 	  //   ]
 		// });
 
+    // SOUNDCLOUD AUTOPLAY NEXT
+    
+
     // ABOUT HIDE PARAGRAPHS
     $('.fa-plus').click(function(){
       $('.hide').fadeIn();
