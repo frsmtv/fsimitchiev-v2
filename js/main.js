@@ -67,7 +67,10 @@ $(document).ready(function () {
 		// });
 
     // SOUNDCLOUD AUTOPLAY NEXT
-    
+
+    // BG VID
+    $('.my-background-video').bgVideo();
+
 
     // ABOUT HIDE PARAGRAPHS
     $('.fa-plus').click(function(){
