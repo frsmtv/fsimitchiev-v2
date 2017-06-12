@@ -44,10 +44,30 @@ ul {
 #help {
   position: absolute;
   bottom: 0;
-  right: 50px;
-  width: 200px;
+  width: 100vw;
   font-size: .6rem;
-  text-align: right;
+  text-align: center;
+  p {
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+  i.animated {
+    left: 50%;
+    right: 50%;
+    margin: auto;
+    bottom: 10px;
+    font-size: 2rem;
+    display: none;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+    @media (max-width: 1200px) {
+      display: block;
+    }
+  }
 }
 
 // SCROLLBARS

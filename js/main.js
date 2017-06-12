@@ -69,15 +69,23 @@ $(document).ready(function () {
     // SOUNDCLOUD AUTOPLAY NEXT
 
     // ABOUT HIDE PARAGRAPHS
-    $('.fa-plus').click(function(){
-      $('.hide').fadeIn();
-      $('.fa-plus').removeClass('fa-plus').addClass('fa-minus');
+    $('#about-fr .fa-plus').click(function(){
+			// $('#about-wrapper').css('flex-direction', 'column');
+      $('#about-fr .hide').fadeIn();
+      $(this).hide();
+      $('#about-en .hide').hide();
+			$('#about-en .fa-plus').fadeIn();
     });
 
-    $('.fa-minus').click(function(){
-      $('.hide').hide();
-      $('.fa-minus').removeClass('fa-minus').addClass('fa-plus');
+		// $('#about-wrapper').css('flex-direction', 'column');
+		$('#about-en .fa-plus').click(function(){
+      $('#about-en .hide').fadeIn();
+			$(this).hide();
+      $('#about-fr .hide').hide();
+			$('#about-fr .fa-plus').fadeIn();
     });
+
+
 
 		// MULTISCROLL
     $('#multiscroll').multiscroll({

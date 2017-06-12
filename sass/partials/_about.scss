@@ -4,8 +4,16 @@
   justify-content: space-between;
   padding: 0 50px;
   padding-top: 25vh;
+  @media (max-width: 736px) {
+    flex-direction: column;
+    padding-top: 50vh;
+  }
   .about-col {
     padding: 50px;
+    @media (max-width: 736px) {
+      width: 90%;
+      padding: 0;
+    }
     h2 {
       font-size: 1.2rem!important;
       text-align: left;

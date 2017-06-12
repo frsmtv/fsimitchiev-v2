@@ -2,11 +2,23 @@
   padding-top: 25vh;
   width: 830px;
   margin: auto;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+  @media (max-width: 736px) {
+    padding-top: 50vh;
+  }
   ul {
     font-size: 2rem;
+    @media (max-width: 736px) {
+      font-size: 1.4rem;
+    }
   }
   #social {
     margin-top: 40px;
     font-size: 1.4rem;
+    @media (max-width: 736px) {
+      font-size: 1rem;
+    }
   }
 }
